@@ -78,7 +78,8 @@
             "debugging": "Debugging",
             "debugScreen": "Debug screen",
             "disableDebugging": "Disable debugging",
-            "appVersion": "App Version {{version}}"
+            "appVersion": "App Version {{version}}",
+            "language": "Language"
         },
         "manuallyEnterTableScreen": {
             "title": "Manually enter table number",
