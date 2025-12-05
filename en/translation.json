@@ -1,3 +1,115 @@
 {
-    "test": "Test"
+    "language": "English",
+    "components": {
+        "apiFetcher": {
+            "restaurantInfo": {
+                "unableToFetch": "Unable to fetch restaurant information",
+                "successfullyFetched": "Successfully fetched restaurant information"
+            },
+            "orderItems": {
+                "unableToFetch": "Unable to fetch order items"
+            },
+            "orderHistory": {
+                "unableToFetch": "Unable to fetch table history"
+            }
+        },
+        "personModal": {
+            "title": "Please set the number of people",
+            "adults": "Adults",
+            "children": "Children"
+        }
+    },
+    "generic": {
+        "pleaseTryAgainLater": "Please try again later",
+        "missingInformation": "Missing information",
+        "success": "Success",
+        "goBack": "Go back",
+        "or": "or",
+        "open": "Open",
+        "disable": "Disable",
+        "continue": "Continue",
+        "unknown": "Unknown",
+        "confirm": "Confirm",
+        "new": "New",
+        "inCart": "In cart",
+        "search": "Search..."
+    },
+    "views": {
+        "cartScreen": {
+            "title": "Cart",
+            "noItems": "No items in cart",
+            "checkoutNItems": "Checkout {{count}} items",
+            "orderPlaced": "Order placed",
+            "orderFailed": "Order failed",
+            "checkoutCreationError": "Error during checkout creation"
+        },
+        "startScreen": {
+            "scanQrCode": "Scan QR code",
+            "manualTable": "Manually enter table number"
+        },
+        "scanTableQrCodeScreen": {
+            "invalidTable": "Invalid table",
+            "permissionGranted": "Permission granted",
+            "permissionDenied": "Permission denied",
+            "permissionInfo": "Camera permission is required to scan QR codes",
+            "permissionRequired": "Camera permission required",
+            "permissionRequiredDescription": "It is not possible to scan without camera permission",
+            "grantPermission": "Grant permission to use camera",
+            "checkingPermissions": "Checking permissions...",
+            "turnFlashOn": "Turn flash on",
+            "turnFlashOff": "Turn flash off"
+        },
+        "settingsScreen": {
+            "title": "Settings",
+            "theme": "Theme",
+            "themeValue": {
+                "light": "Light",
+                "dark": "Dark",
+                "system": "Follow system"
+            },
+            "session": "Session",
+            "setPersonCount": "Set person count",
+            "manageSession": "Manage session",
+            "endSession": "End session",
+            "endSessionHint": "Hint: This will not save anything from the current session!",
+            "restaurant": "Restaurant",
+            "shopId": "Shop ID",
+            "activeSessionHint": "Hint: This cannot be changed during an active session",
+            "debugging": "Debugging",
+            "debugScreen": "Debug screen",
+            "disableDebugging": "Disable debugging",
+            "appVersion": "App Version {{version}}"
+        },
+        "manuallyEnterTableScreen": {
+            "title": "Manually enter table number",
+            "enterTableNumber": "Enter table number",
+            "table": "Table"
+        },
+        "startSessionScreen": {
+            "titleWithName": "Order at {{name}}",
+            "title": "Want to start eating?",
+            "shopWithTable": "{{name}} - Table {{table}}",
+            "startEating": "Start eating!"
+        },
+        "orderScreen": {
+            "title": "Order to table {{table}}"
+        },
+        "orderStatusScreen": {
+            "title": "Status",
+            "noItems": "No items ordered yet",
+            "finish": "Finish ordering"
+        },
+        "orderHistoryScreen": {
+            "title": "Order history of {{table}}",
+            "fetchingHistory": "Fetching history...",
+            "noHistoryFound": "No history found"
+        }
+    },
+    "navigation": {
+        "orderScreen": "Order",
+        "cartScreen": "Cart",
+        "cartScreenWithItems": "Cart ({{count}})",
+        "orderStatusScreen": "Status",
+        "orderHistoryScreen": "History"
+    }
 }
