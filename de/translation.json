@@ -18,5 +18,9 @@
             "title": "Bitte gib die Anzahl der Personen ein"
         }
     },
+    "generic": {
+        "missingInformation": "Fehlende Informationen",
+        "pleaseTryAgainLater": "Bitte versuche es später erneut"
+    },
     "language": "Deutsch"
 }
