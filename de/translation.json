@@ -33,5 +33,22 @@
         "success": "Erfolg",
         "unknown": "Unbekannt"
     },
-    "language": "Deutsch"
+    "language": "Deutsch",
+    "views": {
+        "cartScreen": {
+            "checkoutCreationError": "Fehler beim Erstellen der Bestellung",
+            "checkoutNItems": "{{count}} Artikel kaufen",
+            "noItems": "Warenkorb ist leer",
+            "orderFailed": "Bestellung fehlgeschlagen",
+            "orderPlaced": "Bestellung aufgegeben",
+            "title": "Warenkorb"
+        },
+        "scanTableQrCodeScreen": {
+            "invalidTable": "Ungültiger Tisch"
+        },
+        "startScreen": {
+            "manualTable": "Tischnummer eingeben",
+            "scanQrCode": "QR-Code scannen"
+        }
+    }
 }
