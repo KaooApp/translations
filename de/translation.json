@@ -1,3 +1,22 @@
 {
+    "components": {
+        "apiFetcher": {
+            "orderHistory": {
+                "unableToFetch": "Konnte Bestellverlauf nicht abfragen"
+            },
+            "orderItems": {
+                "unableToFetch": "Konnte Bestellgegenstände nicht abfragen"
+            },
+            "restaurantInfo": {
+                "successfullyFetched": "Restaurant-Informationen erfolgreich abgefragt",
+                "unableToFetch": "Konnte Restaurant-Informationen nicht abfragen"
+            }
+        },
+        "personModal": {
+            "adults": "Erwachsene",
+            "children": "Kinder",
+            "title": "Bitte gib die Anzahl der Personen ein"
+        }
+    },
     "language": "Deutsch"
 }
