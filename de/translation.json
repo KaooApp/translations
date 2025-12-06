@@ -19,8 +19,19 @@
         }
     },
     "generic": {
+        "confirm": "Bestätigen",
+        "continue": "Fortfahren",
+        "disable": "Deaktivieren",
+        "goBack": "Zurück",
+        "inCart": "Im Warenkorb",
         "missingInformation": "Fehlende Informationen",
-        "pleaseTryAgainLater": "Bitte versuche es später erneut"
+        "new": "Neu",
+        "open": "Öffnen",
+        "or": "oder",
+        "pleaseTryAgainLater": "Bitte versuche es später erneut",
+        "search": "Suchen…",
+        "success": "Erfolg",
+        "unknown": "Unbekannt"
     },
     "language": "Deutsch"
 }
