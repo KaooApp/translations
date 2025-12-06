@@ -51,7 +51,27 @@
             "permissionGranted": "Zugriff erteilt",
             "permissionInfo": "Kamera-Zugriff wird benötigt, um einen QR-Code zu scannen",
             "permissionRequired": "Kamera-Zugriff benötigt",
-            "permissionRequiredDescription": "Es ist nicht möglich, ohne Zugriff zu scannen"
+            "permissionRequiredDescription": "Es ist nicht möglich, ohne Zugriff zu scannen",
+            "turnFlashOff": "Blitz ausschalten",
+            "turnFlashOn": "Blitz einschalten"
+        },
+        "settingsScreen": {
+            "activeSessionHint": "Hinweis: Dies kann nicht während einer Sitzung geändert werden",
+            "debugging": "Debugging",
+            "endSession": "Sitzung beenden",
+            "endSessionHint": "Hinweis: Dies speichert nicht die aktuelle Sitzung!",
+            "manageSession": "Sitzung verwalten",
+            "restaurant": "Restaurant",
+            "session": "Sitzung",
+            "setPersonCount": "Personenanzahl festlegen",
+            "shopId": "Shop-ID",
+            "theme": "Design",
+            "themeValue": {
+                "dark": "Dunkel",
+                "light": "Hell",
+                "system": "Wie System"
+            },
+            "title": "Einstellungen"
         },
         "startScreen": {
             "manualTable": "Tischnummer eingeben",
