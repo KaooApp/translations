@@ -43,6 +43,11 @@
             "orderPlaced": "Bestellung aufgegeben",
             "title": "Warenkorb"
         },
+        "manuallyEnterTableScreen": {
+            "enterTableNumber": "Tischnummer eingeben",
+            "table": "Tisch",
+            "title": "Tischnummer eingeben"
+        },
         "scanTableQrCodeScreen": {
             "checkingPermissions": "Prüfe Berechtigungen…",
             "grantPermission": "Zugriff für Kamera erteilen",
@@ -57,9 +62,13 @@
         },
         "settingsScreen": {
             "activeSessionHint": "Hinweis: Dies kann nicht während einer Sitzung geändert werden",
+            "appVersion": "App-Version {{version}}",
+            "debugScreen": "Debug-Screen",
             "debugging": "Debugging",
+            "disableDebugging": "Debugging deaktivieren",
             "endSession": "Sitzung beenden",
             "endSessionHint": "Hinweis: Dies speichert nicht die aktuelle Sitzung!",
+            "language": "Sprache",
             "manageSession": "Sitzung verwalten",
             "restaurant": "Restaurant",
             "session": "Sitzung",
@@ -76,6 +85,12 @@
         "startScreen": {
             "manualTable": "Tischnummer eingeben",
             "scanQrCode": "QR-Code scannen"
+        },
+        "startSessionScreen": {
+            "shopWithTable": "{{name}} - Tisch {{table}}",
+            "startEating": "Auf zur Karte!",
+            "title": "Wüst du wos zum essen hobn?",
+            "titleWithName": "Bei {{name}} bestellen"
         }
     }
 }
