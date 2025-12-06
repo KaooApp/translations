@@ -1,116 +1,116 @@
 {
-    "language": "English",
     "components": {
         "apiFetcher": {
-            "restaurantInfo": {
-                "unableToFetch": "Unable to fetch restaurant information",
-                "successfullyFetched": "Successfully fetched restaurant information"
+            "orderHistory": {
+                "unableToFetch": "Unable to fetch table history"
             },
             "orderItems": {
                 "unableToFetch": "Unable to fetch order items"
             },
-            "orderHistory": {
-                "unableToFetch": "Unable to fetch table history"
+            "restaurantInfo": {
+                "successfullyFetched": "Successfully fetched restaurant information",
+                "unableToFetch": "Unable to fetch restaurant information"
             }
         },
         "personModal": {
-            "title": "Please set the number of people",
             "adults": "Adults",
-            "children": "Children"
+            "children": "Children",
+            "title": "Please set the number of people"
         }
     },
     "generic": {
-        "pleaseTryAgainLater": "Please try again later",
-        "missingInformation": "Missing information",
-        "success": "Success",
-        "goBack": "Go back",
-        "or": "or",
-        "open": "Open",
-        "disable": "Disable",
-        "continue": "Continue",
-        "unknown": "Unknown",
         "confirm": "Confirm",
-        "new": "New",
+        "continue": "Continue",
+        "disable": "Disable",
+        "goBack": "Go back",
         "inCart": "In cart",
-        "search": "Search..."
+        "missingInformation": "Missing information",
+        "new": "New",
+        "open": "Open",
+        "or": "or",
+        "pleaseTryAgainLater": "Please try again later",
+        "search": "Search…",
+        "success": "Success",
+        "unknown": "Unknown"
+    },
+    "language": "English",
+    "navigation": {
+        "cartScreen": "Cart",
+        "cartScreenWithItems": "Cart ({{count}})",
+        "orderHistoryScreen": "History",
+        "orderScreen": "Order",
+        "orderStatusScreen": "Status"
     },
     "views": {
         "cartScreen": {
-            "title": "Cart",
-            "noItems": "No items in cart",
+            "checkoutCreationError": "Error during checkout creation",
             "checkoutNItems": "Checkout {{count}} items",
-            "orderPlaced": "Order placed",
+            "noItems": "No items in cart",
             "orderFailed": "Order failed",
-            "checkoutCreationError": "Error during checkout creation"
-        },
-        "startScreen": {
-            "scanQrCode": "Scan QR code",
-            "manualTable": "Manually enter table number"
-        },
-        "scanTableQrCodeScreen": {
-            "invalidTable": "Invalid table",
-            "permissionGranted": "Permission granted",
-            "permissionDenied": "Permission denied",
-            "permissionInfo": "Camera permission is required to scan QR codes",
-            "permissionRequired": "Camera permission required",
-            "permissionRequiredDescription": "It is not possible to scan without camera permission",
-            "grantPermission": "Grant permission to use camera",
-            "checkingPermissions": "Checking permissions...",
-            "turnFlashOn": "Turn flash on",
-            "turnFlashOff": "Turn flash off"
-        },
-        "settingsScreen": {
-            "title": "Settings",
-            "theme": "Theme",
-            "themeValue": {
-                "light": "Light",
-                "dark": "Dark",
-                "system": "Follow system"
-            },
-            "session": "Session",
-            "setPersonCount": "Set person count",
-            "manageSession": "Manage session",
-            "endSession": "End session",
-            "endSessionHint": "Hint: This will not save anything from the current session!",
-            "restaurant": "Restaurant",
-            "shopId": "Shop ID",
-            "activeSessionHint": "Hint: This cannot be changed during an active session",
-            "debugging": "Debugging",
-            "debugScreen": "Debug screen",
-            "disableDebugging": "Disable debugging",
-            "appVersion": "App Version {{version}}",
-            "language": "Language"
+            "orderPlaced": "Order placed",
+            "title": "Cart"
         },
         "manuallyEnterTableScreen": {
-            "title": "Manually enter table number",
             "enterTableNumber": "Enter table number",
-            "table": "Table"
+            "table": "Table",
+            "title": "Manually enter table number"
         },
-        "startSessionScreen": {
-            "titleWithName": "Order at {{name}}",
-            "title": "Want to start eating?",
-            "shopWithTable": "{{name}} - Table {{table}}",
-            "startEating": "Start eating!"
+        "orderHistoryScreen": {
+            "fetchingHistory": "Fetching history…",
+            "noHistoryFound": "No history found",
+            "title": "Order history of {{table}}"
         },
         "orderScreen": {
             "title": "Order to table {{table}}"
         },
         "orderStatusScreen": {
-            "title": "Status",
+            "finish": "Finish ordering",
             "noItems": "No items ordered yet",
-            "finish": "Finish ordering"
+            "title": "Status"
         },
-        "orderHistoryScreen": {
-            "title": "Order history of {{table}}",
-            "fetchingHistory": "Fetching history...",
-            "noHistoryFound": "No history found"
+        "scanTableQrCodeScreen": {
+            "checkingPermissions": "Checking permissions…",
+            "grantPermission": "Grant permission to use camera",
+            "invalidTable": "Invalid table",
+            "permissionDenied": "Permission denied",
+            "permissionGranted": "Permission granted",
+            "permissionInfo": "Camera permission is required to scan QR codes",
+            "permissionRequired": "Camera permission required",
+            "permissionRequiredDescription": "It is not possible to scan without camera permission",
+            "turnFlashOff": "Turn flash off",
+            "turnFlashOn": "Turn flash on"
+        },
+        "settingsScreen": {
+            "activeSessionHint": "Hint: This cannot be changed during an active session",
+            "appVersion": "App Version {{version}}",
+            "debugScreen": "Debug screen",
+            "debugging": "Debugging",
+            "disableDebugging": "Disable debugging",
+            "endSession": "End session",
+            "endSessionHint": "Hint: This will not save anything from the current session!",
+            "language": "Language",
+            "manageSession": "Manage session",
+            "restaurant": "Restaurant",
+            "session": "Session",
+            "setPersonCount": "Set person count",
+            "shopId": "Shop ID",
+            "theme": "Theme",
+            "themeValue": {
+                "dark": "Dark",
+                "light": "Light",
+                "system": "Follow system"
+            },
+            "title": "Settings"
+        },
+        "startScreen": {
+            "manualTable": "Manually enter table number",
+            "scanQrCode": "Scan QR code"
+        },
+        "startSessionScreen": {
+            "shopWithTable": "{{name}} - Table {{table}}",
+            "startEating": "Start eating!",
+            "title": "Want to start eating?",
+            "titleWithName": "Order at {{name}}"
         }
-    },
-    "navigation": {
-        "orderScreen": "Order",
-        "cartScreen": "Cart",
-        "cartScreenWithItems": "Cart ({{count}})",
-        "orderStatusScreen": "Status",
-        "orderHistoryScreen": "History"
     }
 }
