@@ -34,6 +34,13 @@
         "unknown": "Unbekannt"
     },
     "language": "Deutsch",
+    "navigation": {
+        "cartScreen": "Warenkorb",
+        "cartScreenWithItems": "Warenkorb ({{count}})",
+        "orderHistoryScreen": "Verlauf",
+        "orderScreen": "Bestellen",
+        "orderStatusScreen": "Status"
+    },
     "views": {
         "cartScreen": {
             "checkoutCreationError": "Fehler beim Erstellen der Bestellung",
@@ -47,6 +54,19 @@
             "enterTableNumber": "Tischnummer eingeben",
             "table": "Tisch",
             "title": "Tischnummer eingeben"
+        },
+        "orderHistoryScreen": {
+            "fetchingHistory": "Lade Bestellverlauf…",
+            "noHistoryFound": "Kein Bestellverlauf gefunden",
+            "title": "Bestellverlauf von {{table}}"
+        },
+        "orderScreen": {
+            "title": "Zu Tisch {{table}} bestellen"
+        },
+        "orderStatusScreen": {
+            "finish": "Sitzung abschließen",
+            "noItems": "Noch nichts bestellt",
+            "title": "Status"
         },
         "scanTableQrCodeScreen": {
             "checkingPermissions": "Prüfe Berechtigungen…",
