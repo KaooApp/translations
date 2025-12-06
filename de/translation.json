@@ -41,6 +41,16 @@
         "orderScreen": "Bestellen",
         "orderStatusScreen": "Status"
     },
+    "notifications": {
+        "permissionsAlert": {
+            "message": "Bitte aktiviere Benachrichtigungen in den Einstellungen",
+            "title": "Benachrichtigungen nicht erlaubt"
+        },
+        "reminderNotification": {
+            "body": "Vergiss bitte nicht, deine Sitzung als beendet zu markieren, wenn du fertig gegessen hast!",
+            "title": "Vergiss nicht, deine Sitzung zu beenden!"
+        }
+    },
     "views": {
         "cartScreen": {
             "checkoutCreationError": "Fehler beim Erstellen der Bestellung",
