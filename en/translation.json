@@ -112,5 +112,15 @@
             "title": "Want to start eating?",
             "titleWithName": "Order at {{name}}"
         }
+    },
+    "notifications": {
+        "permissionsAlert": {
+            "title": "Notifications not allowed",
+            "message": "Please enable notifications in the settings"
+        },
+        "reminderNotification": {
+            "title": "Don't forget to end your session!",
+            "body": "If you are done eating, please do not forget to go into the app and mark the session as done!"
+        }
     }
 }
