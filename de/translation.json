@@ -44,7 +44,14 @@
             "title": "Warenkorb"
         },
         "scanTableQrCodeScreen": {
-            "invalidTable": "Ungültiger Tisch"
+            "checkingPermissions": "Prüfe Berechtigungen…",
+            "grantPermission": "Zugriff für Kamera erteilen",
+            "invalidTable": "Ungültiger Tisch",
+            "permissionDenied": "Zugriff verweigert",
+            "permissionGranted": "Zugriff erteilt",
+            "permissionInfo": "Kamera-Zugriff wird benötigt, um einen QR-Code zu scannen",
+            "permissionRequired": "Kamera-Zugriff benötigt",
+            "permissionRequiredDescription": "Es ist nicht möglich, ohne Zugriff zu scannen"
         },
         "startScreen": {
             "manualTable": "Tischnummer eingeben",
